@@ -2,7 +2,9 @@ package Repl;
 
 public class Solution053 {
 	
-	public static String
+	public static String spaceOut(String s) {
+		return s.replaceAll(".", "$0 ");
+	}
 	
 	
 	public static void main(String[] args){
