@@ -15,7 +15,7 @@ public class Solution052 {
 		return strAlpha;
 	}
 	
-	//test case below (dont chang):
+	//test case below (dont change):
 	public static void main(String[] args){
 		System.out.println(alphabetical("adatplqzh")); //"adtz"
 	}
