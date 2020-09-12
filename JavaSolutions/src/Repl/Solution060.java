@@ -1,7 +1,16 @@
 package Repl;
 
 public class Solution060 {
-	public static void main(String[] args) {
-		String firstName="Bob",lastName="Jones";  
+	String studentName;
+	int studentAge;
+	public void setName(String newName) {
+		studentName = newName;
 	}
+	public void setAge(int newAge) {
+		studentAge = newAge;
+	}
+	
+	
+	
+	
 }
