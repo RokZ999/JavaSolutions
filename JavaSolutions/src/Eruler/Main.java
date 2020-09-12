@@ -12,13 +12,13 @@ public class Main {
 		
 		for(int i=0;i<750;i++) {
 			
-			solutions = new File("C:\\Users\\Administrator\\git\\repository\\JavaSolutions\\src\\Eruler\\" + i +".java");
+			solutions = new File("C:\\Users\\Administrator\\git\\repository\\JavaSolutions\\src\\Eruler\\Eruler" + (i<10 ? "00"+i : i<100 ? "0"+i : i ) +".java");
 			
 			lol = new FileWriter(solutions);
 			lol.write("package Eruler;\r\n" + 
 					"import java.util.Scanner;\r\n" + 
 					"\r\n" + 
-					"public class Eruler"+i+" {\r\n" + 
+					"public class Eruler"+(i<10 ? "00"+i : i<100 ? "0"+i : i )+" {\r\n" + 
 					"	public static void main(String[] args) {\r\n" + 
 					"		Scanner in = new Scanner(System.in);\r\n" + 
 					"		System.out.print(\"Input: \");\r\n" + 
@@ -28,6 +28,8 @@ public class Main {
 					"}\r\n" + 
 					"");
 			lol.close();
+		
+		
 		
 		}
 	}
