@@ -6,7 +6,6 @@ public class Solution062 {
 		 toman = new Dog("Toman", 80.1);
 		 System.out.println(toman);
 	}
-	
 }
  class Dog{
 	  public String name,breed;
