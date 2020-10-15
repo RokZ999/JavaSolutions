@@ -6,7 +6,7 @@ public class Solution064 {
 	public static void main(String[] args) {
 
 		ArrayList<StoreProduct> lista = new ArrayList<>();
-		StoreProduct milk,tea,ham,bread;
+		@SuppressWarnings("unused") StoreProduct milk,tea,ham,bread;
 
 		lista.add(milk = new StoreProduct("Milk", 2, "Milk", true, 100));
 		lista.add(tea = new StoreProduct("Tea", 3, 3));

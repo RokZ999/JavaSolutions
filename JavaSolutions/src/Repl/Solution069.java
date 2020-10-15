@@ -1,6 +1,5 @@
 package Repl;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -73,7 +72,6 @@ class Deck{
 		System.out.print(cards[0]);
 	}
 	public void shuffle(){
-		Card temp;
 		int randIndex;
        // [0,1,2,3,4,5 ]
 		for(int i=0;i<52;i++)

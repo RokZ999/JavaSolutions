@@ -9,9 +9,13 @@ class Person
 {
 	private String firstname;
 	private String lastname;
+	@SuppressWarnings("unused")
 	private int birthmonth;
+	@SuppressWarnings("unused")
 	private int birthday;
+	@SuppressWarnings("unused")
 	private int birthyear;
+	
 	private String ssn;
 
 	public Person(String firstname, String lastname, int birthmonth, int birthday, int birthyear, String ssn) {
